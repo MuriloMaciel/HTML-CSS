@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra esse site em varios aparelhos diferente, ou aumente e diminua o tamanho do site</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagem/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagem/Imagem-media.png" type="image/png">
+        <img src="Imagem/Imagem grande.png" alt="Imagem grande">
+    </picture>
+
+    <h1>Audio</h1>
+
+    <audio preload="metadata" controls>
+
+        <source src="media/I Had a Feeling - TrackTribe.mp3" type="audio/mpeg">
+        <source src="media/I Had a Feeling - TrackTribe.ogg" type="audio/ogg">
+        <source src="media/I Had a Feeling - TrackTribe.wav" type="audio/wav">
+
+    </audio>
+</body>
+</html>

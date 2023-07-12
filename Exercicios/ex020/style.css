@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.div {
+    text-align: center;
+    background-color: rgb(242, 245, 245);
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+
+h1:hover{
+    background-color: red;
+    text-align: center;
+    
+}
+
+#Queen:active{
+    background-color: antiquewhite;
+}
+
+div:hover{
+    background-color: crimson;
+}
+
+h1:hover{
+    background-color: red;
+    text-align: center;
+    
+}
+
+#Queen:active{
+    background-color: antiquewhite;
+}
+
+div > h1 {
+    display: none;
+}
+
+div:active > h1 {
+    display: block;
+}
