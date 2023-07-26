@@ -73,16 +73,31 @@ section.normal{
 }
 
 section.imagem{
-
+    background: fixed;
     background-color: rgb(71, 71, 71);
     color:white;
+    box-shadow: inset 3px 3px 10px rgba(0, 0, 0, 0.459);
 }
 
 section.imagem > p {
+    border-radius: 3px;
     display: inline-block;  
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.527);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.384) ;
+    background-size: cover;
 }
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+}
+
 
 section#ultima{
     height: 1181px;
